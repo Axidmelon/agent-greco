@@ -77,7 +77,7 @@ export function AppSidebar() {
               isActive
             }) => `
                   flex items-center gap-3 px-3 py-2 rounded-lg transition-all duration-200
-                  ${isActive ? 'bg-sidebar-primary text-sidebar-primary-foreground' : 'text-sidebar-foreground hover:bg-sidebar-accent'}
+                  ${isActive ? 'bg-sidebar-primary text-sidebar-primary-foreground' : 'text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground'}
                 `}>
                 <Settings className="h-5 w-5 flex-shrink-0" />
                 {!collapsed && <span className="font-medium animate-fade-in">Settings</span>}

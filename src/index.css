@@ -16,10 +16,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 27%;
 
-    /* Primary - Professional green for compliance */
-    --primary: 142 69% 58%;
+    /* Primary - Teal blue compliance theme */
+    --primary: 191 82% 28%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 142 69% 52%;
+    --primary-hover: 191 82% 35%;
 
     /* Secondary - Soft neutral */
     --secondary: 220 13% 96%;
@@ -41,25 +41,25 @@
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 142 69% 58%;
+    --ring: 191 82% 28%;
 
     --radius: 0.75rem;
 
     /* Sidebar styling */
     --sidebar-background: 250 100% 99%;
     --sidebar-foreground: 215 25% 27%;
-    --sidebar-primary: 142 69% 58%;
+    --sidebar-primary: 191 82% 28%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 220 13% 96%;
     --sidebar-accent-foreground: 215 25% 27%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 142 69% 58%;
+    --sidebar-ring: 191 82% 28%;
 
     /* Custom gradients and shadows */
-    --gradient-primary: linear-gradient(135deg, hsl(142 69% 58%), hsl(142 69% 52%));
+    --gradient-primary: linear-gradient(135deg, hsl(191 82% 28%), hsl(191 82% 35%));
     --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(220 13% 98%));
     --shadow-soft: 0 2px 10px -2px hsl(220 13% 91% / 0.3);
-    --shadow-hover: 0 4px 20px -4px hsl(142 69% 58% / 0.2);
+    --shadow-hover: 0 4px 20px -4px hsl(191 82% 28% / 0.2);
 
     /* Animation timings */
     --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
