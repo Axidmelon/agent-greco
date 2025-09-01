@@ -58,7 +58,7 @@ export function AppSidebar() {
                         ${isActive ? 'bg-sidebar-primary text-sidebar-primary-foreground shadow-soft' : 'text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground'}
                       `}>
                       <item.icon className="h-5 w-5 flex-shrink-0" />
-                      {!collapsed && <span className="font-medium animate-fade-in">
+                      {!collapsed && <span className="font-medium animate-fade-in text-slate-200">
                           {item.title}
                         </span>}
                     </NavLink>
