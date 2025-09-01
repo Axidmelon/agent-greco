@@ -6,30 +6,30 @@
 
 @layer base {
   :root {
-    /* Core colors - Professional compliance theme */
-    --background: 250 100% 99%;
-    --foreground: 215 25% 27%;
+    /* Core colors - Dark theme */
+    --background: 222 84% 5%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 215 25% 27%;
+    --card: 217 33% 18%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover: 217 33% 18%;
+    --popover-foreground: 210 40% 98%;
 
-    /* Primary - Teal blue compliance theme */
-    --primary: 191 82% 28%;
-    --primary-foreground: 0 0% 100%;
-    --primary-hover: 191 82% 35%;
+    /* Primary - Bright teal for dark theme */
+    --primary: 191 82% 45%;
+    --primary-foreground: 222 84% 5%;
+    --primary-hover: 191 82% 52%;
 
-    /* Secondary - Soft neutral */
-    --secondary: 220 13% 96%;
-    --secondary-foreground: 215 25% 27%;
+    /* Secondary - Dark neutral */
+    --secondary: 217 33% 18%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 220 13% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 217 33% 18%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 220 13% 96%;
-    --accent-foreground: 215 25% 27%;
+    --accent: 217 33% 18%;
+    --accent-foreground: 210 40% 98%;
 
     /* Warning for premium features */
     --warning: 38 92% 50%;
@@ -39,27 +39,27 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 191 82% 28%;
+    --border: 217 33% 18%;
+    --input: 217 33% 18%;
+    --ring: 191 82% 45%;
 
     --radius: 0.75rem;
 
-    /* Sidebar styling */
-    --sidebar-background: 250 100% 99%;
-    --sidebar-foreground: 215 25% 27%;
-    --sidebar-primary: 191 82% 28%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 220 13% 96%;
-    --sidebar-accent-foreground: 215 25% 27%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 191 82% 28%;
+    /* Sidebar styling - Dark theme */
+    --sidebar-background: 222 84% 5%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 191 82% 45%;
+    --sidebar-primary-foreground: 222 84% 5%;
+    --sidebar-accent: 217 33% 18%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217 33% 18%;
+    --sidebar-ring: 191 82% 45%;
 
     /* Custom gradients and shadows */
-    --gradient-primary: linear-gradient(135deg, hsl(191 82% 28%), hsl(191 82% 35%));
-    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(220 13% 98%));
-    --shadow-soft: 0 2px 10px -2px hsl(220 13% 91% / 0.3);
-    --shadow-hover: 0 4px 20px -4px hsl(191 82% 28% / 0.2);
+    --gradient-primary: linear-gradient(135deg, hsl(191 82% 45%), hsl(191 82% 52%));
+    --gradient-card: linear-gradient(135deg, hsl(217 33% 18%), hsl(217 33% 15%));
+    --shadow-soft: 0 2px 10px -2px hsl(0 0% 0% / 0.3);
+    --shadow-hover: 0 4px 20px -4px hsl(191 82% 45% / 0.3);
 
     /* Animation timings */
     --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
