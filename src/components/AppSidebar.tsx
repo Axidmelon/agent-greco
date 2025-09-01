@@ -122,7 +122,8 @@ export function AppSidebar() {
             variant="ghost"
             size="sm"
             onClick={toggleSidebar}
-            className="h-8 w-8 p-0 text-sidebar-foreground hover:bg-sidebar-accent"
+            className="h-8 w-8 p-0 text-sidebar-foreground hover:bg-sidebar-accent flex-shrink-0"
+            aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}
           >
             {collapsed ? (
               <ChevronRight className="h-4 w-4" />
